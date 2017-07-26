@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutSpinner"
+    >
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/india"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/flag"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#004D40"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/country"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INR"
+        android:textColor="#004D40"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/code"/>
+</LinearLayout>

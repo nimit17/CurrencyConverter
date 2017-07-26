@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.currencyconverternimit.MainActivity"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F1F8E9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from"
+            android:textStyle="bold"
+            android:textColor="#33691E"
+            android:id="@+id/from"
+            android:textSize="35sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/fromSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:scrollbarSize="25sp"/>
+
+        <EditText
+            android:id="@+id/fromCurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#33691E"
+            android:inputType="numberDecimal"
+            android:hint="Amount"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="LabelFor"
+            android:textSize="25sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:text="CONVERT"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="#689F38"
+
+            android:textColor="#F0F4C3"
+            android:shadowColor="#000"
+            android:fontFamily="sans-serif"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textSize="25sp"
+            android:elevation="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:onClick="convert"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"
+            android:textColor="#33691E"
+            android:id="@+id/to"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            />
+        <Spinner
+            android:id="@+id/toSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:scrollbarSize="25sp"/>
+        <TextView
+            android:id="@+id/toCurrency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#33691E"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            tools:ignore="LabelFor"
+            android:textStyle="bold"
+            android:text="@string/toValue"
+            android:textSize="25sp"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
