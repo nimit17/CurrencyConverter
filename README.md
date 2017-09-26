@@ -1,3 +1,4 @@
-# CurrencyConverter
+## CurrencyConverter
 Simple Currency Converter App.
-API used-Fixer
+## API
+* [Fixer.io] (https://github.com/hakanensari/fixer-io)
