@@ -1,4 +1,8 @@
 ## CurrencyConverter
 Simple Currency Converter App.
 ## API
-* [Fixer.io] (https://github.com/hakanensari/fixer-io)
+* [Fixer][fixer.io-link]
+
+
+
+[fixer.io-link]:https://github.com/hakanensari/fixer-io
